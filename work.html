@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>作品の紹介｜ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="css/sub.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <!--header-->
+  <header>
+    <a class="header-logo" href="#top" aria-label="My portfolio トップへ">My portfolio</a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="global-nav">
+      <span class="menu-toggle__line"></span>
+      <span class="menu-toggle__line"></span>
+      <span class="menu-toggle__line"></span>
+      <span class="sr-only">メニューを開く</span>
+    </button>
+
+    <nav class="global-nav" id="global-nav" aria-label="メインナビゲーション">
+      <a href="index.html">TOP</a>
+      <a href="/about.html">ABOUT</a>
+      <a href="/work.html">WORKS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero__content">
+        <h1 id="hero-title">WORKS</h1>
+        <p>作品の紹介</p>
+      </div>
+    </section>
+
+    <section class="section work">
+
+       <div class="work-filters" role="group" aria-label="作品カテゴリーで絞り込む">
+              <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">すべて</button>
+              <button class="filter-button" type="button" data-filter="web" aria-pressed="false">Web</button>
+              <button class="filter-button" type="button" data-filter="graphic" aria-pressed="false">グラフィック</button>
+              <button class="filter-button" type="button" deta-filter="move" aria-pressed="false">動画</button>
+            </div> 
+
+      <p class="text">作品をクリックすると詳細が表示されます</p>
+
+       <div class="work-grid" id="web-graphic-works">
+            <article class="work-card" data-category="web">
+              <a class="work-card__image-link" href="/work/work01.html" aria-label="水族館サイトについて問い合わせる">
+                <img src="img/work-aquarium.jpg" alt="海の生き物をテーマにした水族館サイトの画面" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">Web</span>
+                <h4>水族館サイト</h4>
+                <p>架空の水族館サイトを制作する学校課題として、デザインを行いました。</p>
+                <p class="work-card__tools">使用技術：Illustrator / Photoshop</p>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="web">
+              <a class="work-card__image-link" href="/work/work02.html" aria-label="宮野医療機器株式会社LPについて問い合わせる">
+                <img src="img/work-medical.jpg" alt="医療機器会社のランディングページの画面" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">Web</span>
+                <h4>宮野医療機器株式会社 LP</h4>
+                <p>医療関連の仕事内容を一般の方にも分かりやすく伝えるランディングページです。</p>
+                <p class="work-card__tools">使用技術：Illustrator / figma / HTML / CSS</p>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="graphic">
+              <a class="work-card__image-link" href="/work/work03.html" aria-label="花火大会ポスターについて問い合わせる">
+                <img src="img/work-fireworks.jpg" alt="青い花火を大きく配置した夏祭りのポスター" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">グラフィック</span>
+                <h4>花火大会ポスター</h4>
+                <p>「香住ふるさとまつり花火大会」のポスターを制作しました。</p>
+                <p class="work-card__tools">制作ツール：Illustrator</p>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="graphic">
+              <a class="work-card__image-link" href="/work/work04.html" aria-label="チョコフェスのポスターについて問い合わせる">
+                <img src="img/work-chocolate.jpg" alt="チョコレートをモチーフにしたイベントポスター" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">グラフィック</span>
+                <h4>チョコフェスポスター</h4>
+                <p>架空イベント「チョコフェス」のポスターを制作しました。</p>
+                <p class="work-card__tools">制作ツール：Illustrator</p>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="graphic">
+              <a class="work-card__image-link" href="/work/work05.html" aria-label="チョコフェスのポスターについて問い合わせる">
+                <img src="img/work-graphic.jpg" alt="チョコレートをモチーフにしたイベントポスター" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">グラフィック</span>
+                <h4>棒グラフ</h4>
+                <p>情報を分かりやすく伝えるための棒グラフを制作しました。</p>
+                <p class="work-card__tools">制作ツール：Illustrator</p>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="graphic">
+              <a class="work-card__image-link" href="/work/work06.html" aria-label="チョコフェスのポスターについて問い合わせる">
+                <img src="img/work-year.jpg" alt="チョコレートをモチーフにしたイベントポスター" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">グラフィック</span>
+                <h4>年賀状</h4>
+                <p>レイアウトや配色を工夫したオリジナル年賀状制作しました。</p>
+                <p class="work-card__tools">制作ツール：Illustrator</p>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="graphic">
+              <a class="work-card__image-link" href="/work/work07.html" aria-label="チョコフェスのポスターについて問い合わせる">
+                <img src="img/work-art.jpg" alt="チョコレートをモチーフにしたイベントポスター" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">グラフィック</span>
+                <h4>展示会フライヤー</h4>
+                <p>配布データをもとに複数パターンのフライヤーを制作しました。</p>
+                <p class="work-card__tools">制作ツール：Illustrator</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="work-grid work-grid--video" data-category="move">
+            <article class="work-card work-card--video">
+              <a class="work-card__image-link" href="/work/work08.html" aria-label="動画01について問い合わせる">
+                <img src="img/video-01.jpg" alt="神戸三宮の飲食店を紹介する動画のサムネイル" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">動画</span>
+                <h4>動画０１</h4>
+                <p>神戸三宮の飲食店を４選紹介する動画です。</p>
+                <p class="work-card__tools">制作ツール：Premiere Pro</p>
+              </div>
+            </article>
+
+            <article class="work-card work-card--video">
+              <a class="work-card__image-link" href="/work/work09.html" aria-label="動画02について問い合わせる">
+                <img src="img/video-02.jpg" alt="神戸の博物館を散策する動画のサムネイル" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">動画</span>
+                <h4>動画０２</h4>
+                <p>神戸三宮にある「神戸北野異人館街」を散策した動画です。</p>
+                <p class="work-card__tools">制作ツール：Premiere Pro</p>
+              </div>
+            </article>
+
+            <article class="work-card work-card--video" >
+              <a class="work-card__image-link" href="/work/work10.html" aria-label="動画03について問い合わせる">
+                <img src="img/video-03.jpg" alt="須磨離宮公園を散策する動画のサムネイル">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">動画</span>
+                <h4>動画０３</h4>
+                <p>須磨離宮公園を一人で散策する動画です。</p>
+                <p class="work-card__tools">制作ツール：Premiere Pro</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+
+    </section>
+
+  </main>
+
+  <footer>
+    <a class="footer-logo" href="#top">My portfolio</a>
+    <nav class="footer-nav">
+      <a href="index.html">TOP</a>
+      <a href="/about.html">ABOUT</a>
+      <a href="/work.html">WORKS</a>
+    </nav>
+  </footer>
+</body>
+
+</html>

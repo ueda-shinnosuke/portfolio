@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>トップ｜ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <a class="header-logo" href="#top" aria-label="My portfolio トップへ">My portfolio</a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="global-nav">
+      <span class="menu-toggle__line"></span>
+      <span class="menu-toggle__line"></span>
+      <span class="menu-toggle__line"></span>
+      <span class="sr-only">メニューを開く</span>
+    </button>
+
+    <nav class="global-nav" id="global-nav" aria-label="メインナビゲーション">
+      <a href="/index.html">TOP</a>
+      <a href="/about.html">ABOUT</a>
+      <a href="/work.html">WORKS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero__content">
+        <h1 id="hero-title">My name is Shinnosuke !</h1>
+        <p>This is my portfolio website !</p>
+      </div>
+      <a class="scroll-cue" href="#about">
+        <span></span>
+      </a>
+    </section>
+
+    <div class="page-content">
+      <section class="section about" id="about">
+        <p class="section-label">ABOUT</p>
+        <h2 class="section-title" id="about-title">私の紹介</h2>
+        <div class="my_box">
+          <img class="me" src="/img/me.jpg" alt="自分の写真">
+          <div class="more_box">
+            <p class="about_text">
+              神戸電子専門学校グラフィックデザイン学科 植田心之介です。<br>
+              学校ではWebデザインやHTML・CSS・JavaScriptを使ったコーディングを学んでいます。
+              デザインだけでなく、操作のしやすさにもこだわり、見た人が報を理解できるサイトづくりを心がけています。
+              制作を通して新しい技術や表現方法を学びながら、自分のアイデアを形にすることを大切にしています。
+              これからも知識と技術を磨き、デザインと機能性を両立した、魅力のあるWebサイトを制作していきたいと考えています。
+            </p>
+            <button class="about_more"><a href="/about.html">もっと見る</a></button>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <p class="section-label">SKILL</p>
+        <h2 class="section-title">実績の紹介</h2>
+        <p class="skills-intro">
+          デザインからコーディングまで、学んできたスキルを紹介します。
+        </p>
+
+        <div class="skills-list">
+
+          <article class="skill-card">
+            <div class="skill-card__top">
+              <h3>HTML</h3>
+              <span>CODING</span>
+            </div>
+            <div class="skill-bar">
+              <span style="--level: 85%"></span>
+            </div>
+            <p>適切なHTML構造を意識し、ページを組み立てます。</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card__top">
+              <h3>CSS</h3>
+              <span>STYLING</span>
+            </div>
+            <div class="skill-bar">
+              <span style="--level: 78%"></span>
+            </div>
+            <p>レイアウトや配色を調整し、レスポンシブに対応します。</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card__top">
+              <h3>JavaScript</h3>
+              <span>PROGRAMMING</span>
+            </div>
+            <div class="skill-bar">
+              <span style="--level: 35%"></span>
+            </div>
+            <p>ボタン操作や表示切り替えなどの動きを学んでいます。</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card__top">
+              <h3>Figma</h3>
+              <span>UI DESIGN</span>
+            </div>
+            <div class="skill-bar">
+              <span style="--level: 50%"></span>
+            </div>
+            <p>Webサイトの画面構成やデザインカンプを作成します。</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card__top">
+              <h3>Illustrator</h3>
+              <span>GRAPHIC</span>
+            </div>
+            <div class="skill-bar">
+              <span style="--level: 50%"></span>
+            </div>
+            <p>ポスターやロゴなどのグラフィックを制作します。</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card__top">
+              <h3>Photoshop</h3>
+              <span>IMAGE EDIT</span>
+            </div>
+            <div class="skill-bar">
+              <span style="--level: 40%"></span>
+            </div>
+            <p>写真の補正や画像素材の調整に使用します。</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card__top">
+              <h3>Premiere Pro</h3>
+              <span>VIDEO</span>
+            </div>
+            <div class="skill-bar">
+              <span style="--level: 45%"></span>
+            </div>
+            <p>動画のカットやテロップの追加などを行います。</p>
+          </article>
+        </div>
+
+      </section>
+
+      <section class="section works" id="works">
+        <p class="section-label">WORKS</p>
+        <h2 class="section-title" id="works-title">作品の紹介</h2>
+
+        <div class="works-group">
+          <div class="works-group__heading">
+            <h3>Web・グラフィック</h3>
+            <!-- <div class="work-filters" role="group" aria-label="作品カテゴリーで絞り込む">
+              <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">すべて</button>
+              <button class="filter-button" type="button" data-filter="web" aria-pressed="false">Web</button>
+              <button class="filter-button" type="button" data-filter="graphic" aria-pressed="false">グラフィック</button>
+            </div> -->
+          </div>
+
+          <div class="work-grid" id="web-graphic-works">
+            <article class="work-card" data-category="web">
+              <a class="work-card__image-link" href="#contact" aria-label="水族館サイトについて問い合わせる">
+                <img src="img/work-aquarium.jpg" alt="海の生き物をテーマにした水族館サイトの画面" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">Web</span>
+                <h4>水族館サイト</h4>
+                <p>架空の水族館サイトを制作する学校課題として、デザインを行いました。</p>
+                <p class="work-card__tools">使用技術：Illustrator / Photoshop</p>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="web">
+              <a class="work-card__image-link" href="#contact" aria-label="宮野医療機器株式会社LPについて問い合わせる">
+                <img src="img/work-medical.jpg" alt="医療機器会社のランディングページの画面" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">Web</span>
+                <h4>宮野医療機器株式会社 LP</h4>
+                <p>医療関連の仕事内容を一般の方にも分かりやすく伝えるランディングページです。</p>
+                <p class="work-card__tools">使用技術：Illustrator / figma / HTML / CSS</p>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="graphic">
+              <a class="work-card__image-link" href="#contact" aria-label="花火大会ポスターについて問い合わせる">
+                <img src="img/work-fireworks.jpg" alt="青い花火を大きく配置した夏祭りのポスター" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">グラフィック</span>
+                <h4>花火大会ポスター</h4>
+                <p>「香住ふるさとまつり花火大会」のポスターを制作しました。</p>
+                <p class="work-card__tools">制作ツール：Illustrator</p>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="graphic">
+              <a class="work-card__image-link" href="#contact" aria-label="チョコフェスのポスターについて問い合わせる">
+                <img src="img/work-chocolate.jpg" alt="チョコレートをモチーフにしたイベントポスター" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">グラフィック</span>
+                <h4>チョコフェスポスター</h4>
+                <p>架空イベント「チョコフェス」のポスターを制作しました。</p>
+                <p class="work-card__tools">制作ツール：Illustrator</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="works-group video-group">
+          <div class="works-group__heading">
+            <h3>動画</h3>
+          </div>
+          <div class="work-grid work-grid--video">
+            <article class="work-card work-card--video">
+              <a class="work-card__image-link" href="#contact" aria-label="動画01について問い合わせる">
+                <img src="img/video-01.jpg" alt="神戸三宮の飲食店を紹介する動画のサムネイル" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">動画</span>
+                <h4>動画０１</h4>
+                <p>神戸三宮の飲食店を４選紹介する動画です。</p>
+                <p class="work-card__tools">制作ツール：Premiere Pro</p>
+              </div>
+            </article>
+
+            <article class="work-card work-card--video">
+              <a class="work-card__image-link" href="#contact" aria-label="動画02について問い合わせる">
+                <img src="img/video-02.jpg" alt="神戸の博物館を散策する動画のサムネイル" loading="lazy">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">動画</span>
+                <h4>動画０２</h4>
+                <p>神戸三宮にある「神戸北野異人館街」を散策した動画です。</p>
+                <p class="work-card__tools">制作ツール：Premiere Pro</p>
+              </div>
+            </article>
+
+            <article class="work-card work-card--video">
+              <a class="work-card__image-link" href="#contact" aria-label="動画03について問い合わせる">
+                <img src="img/video-03.jpg" alt="須磨離宮公園を散策する動画のサムネイル">
+              </a>
+              <div class="work-card__body">
+                <span class="work-tag">動画</span>
+                <h4>動画０３</h4>
+                <p>須磨離宮公園を一人で散策する動画です。</p>
+                <p class="work-card__tools">制作ツール：Premiere Pro</p>
+              </div>
+            </article>
+          </div>
+        </div>
+         <button class="more"><a href="/work.html">もっと見る</a></button>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <a class="footer-logo" href="#top">My portfolio</a>
+    <nav class="footer-nav">
+      <a href="index.html">TOP</a>
+      <a href="/about.html">ABOUT</a>
+      <a href="/work.html">WORKS</a>
+    </nav>
+  </footer>
+</body>
+
+</html>

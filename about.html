@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>私の紹介｜ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="css/sub.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <!--header-->
+  <header>
+    <a class="header-logo" href="#top" aria-label="My portfolio トップへ">My portfolio</a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="global-nav">
+      <span class="menu-toggle__line"></span>
+      <span class="menu-toggle__line"></span>
+      <span class="menu-toggle__line"></span>
+      <span class="sr-only">メニューを開く</span>
+    </button>
+
+    <nav class="global-nav" id="global-nav" aria-label="メインナビゲーション">
+      <a href="index.html">TOP</a>
+      <a href="/about.html">ABOUT</a>
+      <a href="/work.html">WORKS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero__content">
+        <h1 id="hero-title">ABOUT</h1>
+        <p>私の紹介</p>
+      </div>
+    </section>
+
+     <div class="page-content">
+      <section class="section about" id="about">
+        <div class="my_box">
+          <img class="me" src="/img/me.jpg" alt="自分の写真">
+          <div class="more_box">
+            <p class="about_text">
+              神戸電子専門学校グラフィックデザイン学科 植田心之介です。<br>
+              学校ではWebデザインやHTML・CSS・JavaScriptを使ったコーディングを学んでいます。
+              デザインだけでなく、操作のしやすさにもこだわり、見た人が報を理解できるサイトづくりを心がけています。
+              制作を通して新しい技術や表現方法を学びながら、自分のアイデアを形にすることを大切にしています。
+              これからも知識と技術を磨き、デザインと機能性を両立した、魅力のあるWebサイトを制作していきたいと考えています。
+            </p>
+            <button class="about_more"><a href="/about.html">もっと見る</a></button>
+          </div>
+
+        </div>
+      </section>
+
+  </main>
+
+  <footer>
+    <a class="footer-logo" href="#top">My portfolio</a>
+    <nav class="footer-nav">
+      <a href="index.html">TOP</a>
+      <a href="/about.html">ABOUT</a>
+      <a href="/work.html">WORKS</a>
+    </nav>
+  </footer>
+</body>
+
+</html>
