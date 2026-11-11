@@ -640,6 +640,10 @@ background-color: #011b36;
   font-size: 10px;
 }
 
+.more a{
+  color: #fff;  
+}
+
 /* =========================
    Footer: keep the sand-colored footer
    ========================= */
