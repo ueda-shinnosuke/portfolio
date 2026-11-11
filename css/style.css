@@ -125,6 +125,7 @@ header {
   font-weight: 700;
   text-decoration: none;
   transition: opacity 180ms ease;
+  color: #000;
 }
 
 .global-nav a:hover,
