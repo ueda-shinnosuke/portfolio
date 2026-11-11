@@ -213,6 +213,19 @@ header {
   margin-inline: auto;
 }
 
+.white {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.white > img {
+  width: 50%;
+  height: auto;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
 .about {
   padding-top: 14px;
 }
