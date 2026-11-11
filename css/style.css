@@ -426,9 +426,11 @@ background-color: #011b36;
   color: #fff;
   border: none;
   border-radius: 20px;
-    margin-top: 20px;
+  margin-top: 20px;
+}
 
-
+.about_more a{
+  color: #fff;
 }
 
 .more a , .about_more a{
