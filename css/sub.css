@@ -197,22 +197,20 @@ header {
   transform: translateY(-2px) rotate(45deg);
 }
 
-.more_button{
+.more_button {
   background-color: #000;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
+  margin: 20px auto 0;
   width: fit-content;
   text-align: center;
 }
 
-.more_button a{
+.more_button a {
   display: block;
-  width: 100%;
   padding: 5px 25px;
   color: #fff;
+  text-decoration: none;
 }
+
 
 /* =========================
    Main content
