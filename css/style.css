@@ -220,17 +220,7 @@ header {
   object-fit: contain;
 }
 
-.more_box{
-  background-color: #000;
-  margin-top: 20px;
-}
 
-.more_box a{
-  display: block;
-  width: 100%;
-  padding: 5px 25px;
-  color: #fff;
-}
 
 .image_content {
   flex: 1;

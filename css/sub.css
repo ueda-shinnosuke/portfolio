@@ -197,6 +197,21 @@ header {
   transform: translateY(-2px) rotate(45deg);
 }
 
+.more_boxs{
+  background-color: #000;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.more_boxs a{
+  display: block;
+  width: 100%;
+  padding: 5px 25px;
+  color: #fff;
+}
+
 /* =========================
    Main content
    ========================= */
