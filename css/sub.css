@@ -203,6 +203,8 @@ header {
   display: flex;
   flex-direction: column;
   margin: auto;
+  width: fit-content;
+  text-align: center;
 }
 
 .more_button a{
